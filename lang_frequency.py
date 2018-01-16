@@ -1,4 +1,4 @@
-import re
+﻿import re
 import sys
 import collections
 
@@ -12,7 +12,8 @@ def load_data(file_path):
 def get_most_frequent_words(text):
     text = re.split(r'\W+', text)
     duplicate_words_counter = collections.Counter(text)
-    return duplicate_words_counter.most_common(10)
+    number_of_words = 10
+    return duplicate_words_counter.most_common(number_of_words)
 
 
 if __name__ == '__main__':
