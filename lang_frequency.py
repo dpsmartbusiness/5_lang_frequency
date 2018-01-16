@@ -1,4 +1,4 @@
-import re
+﻿import re
 import sys
 import collections
 
@@ -19,7 +19,7 @@ if __name__ == '__main__':
     try:
         top_frequent_words = get_most_frequent_words(load_data(sys.argv[1]))
         print ("Список из 10 слов наиболее часто встречающихся в тексте: \n")
-        for word,frequency in top_frequent_words:
+        for word, frequency in top_frequent_words:
             print('Cлово: {} | Частота: {}'.format(word, frequency))
     except FileNotFoundError:
         print('Некорректный путь к файлу.')
