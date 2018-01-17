@@ -4,8 +4,8 @@ import collections
 
 
 def load_data(file_path):
-    with open(file_path, 'r', encoding='UTF-8') as text:
-        text_read = text.read()
+    with open(file_path, 'r', encoding='UTF-8') as input_file:
+        text_read = input_file.read()
     return text_read
 
 
