@@ -1,5 +1,5 @@
 # Frequency Analysis of Words
-The program allows you to find the top 10 most used words and their frequency of use in a text file. The program works only with the "ANSI" encoding.
+The program allows you to find the top 10 most used words and their frequency of use in a text file. The program works only with the "UTF-8" encoding.
 
 # Quickstart
 The program takes path to text file as an argument and displays results (10 most frequent words and frequency).
