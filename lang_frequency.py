@@ -4,9 +4,9 @@ import collections
 
 
 def load_data(file_path):
-    with open(file_path, 'r', encoding='ANSI') as text:
-        read_text = text.read()
-    return read_text
+    with open(file_path, 'r', encoding='UTF-8') as text:
+        text_read = text.read()
+    return text_read
 
 
 def get_most_frequent_words(text):
